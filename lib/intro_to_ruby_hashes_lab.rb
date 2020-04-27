@@ -1,8 +1,8 @@
 def my_hash_creator(key, value)
-  my = {
-    :key => value
+  creator = {
+    :key=> value
   }
-  my
+  return creator
 end
 
 def read_from_hash(hash, key)
